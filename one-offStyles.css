@@ -1,0 +1,15 @@
+.overview{
+    width: 100%;
+    height: 450px;
+    border-radius: 3px;
+}
+
+.personal-pict{
+    height: 100%;
+    float: left;
+}
+
+.overview-text{
+    margin-left: 3px;
+    margin-top : 2px;
+}

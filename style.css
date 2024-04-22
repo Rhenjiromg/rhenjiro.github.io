@@ -1,0 +1,137 @@
+.html{
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+.head .body{
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    position: absolute;
+}
+
+.header{
+    color: black;
+    font-size: 3rem;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-family: inherit;
+    border-bottom: 2.5px solid black;
+}
+
+.sections{
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: max-content;
+    font-family: inherit;
+}
+
+.tabs{
+    color:black;
+    overflow: hidden;
+}
+
+.tab-button{
+    float: left;
+    border: none;
+    border-bottom: 5px solid black;
+    outline: none;
+    cursor: pointer;
+    width: 25%;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab-button:hover{
+    background-color: #c4c4b0;
+}
+.tab-button.active{
+    border-bottom: 5px solid beige;
+    background-color: #c4c4b0;
+}
+
+.tabsections{
+    display: none;
+    padding-top:6px;
+    border: none;
+    border-top: none;
+    background-color: white;
+    color: black;
+    overflow: visible;
+}
+
+.Aslot{
+    background-color: #EEE;
+    border: none;
+    outline: none;
+    color: black;
+    width: 90%;
+    height: 150px;
+    border-style: ridge;
+    cursor: pointer;
+    flex-direction: column;
+    display: flex;
+    transition: 0.2s;
+    overflow: visible;
+    margin-left:5%;
+}
+
+.Aslot:hover{
+    transform: scale(1.05);
+}
+
+.section-head{
+    margin-left: 3px;
+    color:black;
+    float:left;
+    font-size: 1.9rem;
+    align-content: start;
+    width: 100%;
+    margin-top: -0.5px;
+}
+
+.section-desc{
+    margin-left: 3px;
+    color:black;
+    padding-top: none;
+    float:left;
+    align-content: start;
+    font-size: 0.7rem;
+    margin-top: -13px;
+}
+
+.keywords{
+    float:left;
+    width: fit-content;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    border: 0.1px solid black;
+    border-radius: 50px;
+    margin-left: 3px;
+    background-color: #FFF;
+}
+
+.things-desc{
+    font-size: 0.9rem;
+    color: black;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+.Info{
+    height: fit-content;
+    width: fit-content;
+    padding-left:3px ;
+    margin-left:4px;
+    margin-right: 4px;
+    float: left;
+}
+.Info-Body{
+    font-family: inherit;
+    font-size: 1.1rem;
+}
+.icon{
+    height: 1.1rem;
+    margin-bottom: -3.25px;
+    margin-right: 4px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="one-offStyles.css">
+        <script src="main.js">
+
+        </script>
+        <meta charset="8utf">
+        <title>Rhenjiro Gunawan Resume</title>
+    </head>
+
+    <body>
+        <div class="header">Rhenjiro M Gunawan</div>
+        <div class="sections">
+                <div class="tabs">
+                    <button class="tab-button" onclick="openTab(event, 'Personal-Info')"   id="defaultOpen">Overview</button>
+                    <button class="tab-button" onclick="openTab(event, 'Careers')">Work Experience</button>
+                    <button class="tab-button" onclick="openTab(event, 'Volunteers')">Volunteer</button>
+                    <button class="tab-button" onclick="openTab(event, 'Portofolio')">Projects</button>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            document.getElementById("defaultOpen").click();
+                        });
+                    </script>
+                </div>
+                <div id="Personal-Info" class="tabsections">
+                    <h1>Personal Info</h1>
+                    <div class="overview">
+                        <img src="assets/DD1_3623.jpg" class="personal-pict">
+                        <div class="overview-text"></div>
+                        <div class="Info">
+                            <p class="Info-Body"></p>
+                            <p class="Info-Body"><img class="icon" src="assets/email-logo.png">Email: <a href="mailto: rhenjirog@gmail.com">rhenjirog@gmail.com</a><img class="icon" src="assets/open-logo.png"></p>
+                            <p class="Info-Body"><img class="icon" src="assets/phone-logo.png">Phone number: <a href="tel:+12064835188">206-483-5188</a><img class="icon" src="assets/open-logo.png"></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="Careers" class="tabsections">
+                    <h1>Work Experience</h1>
+                    <div class="Aslot" id="tutor" onclick="location.href='#';">
+                        <h2  class="section-head">Computer Science Tutor</h2>
+                        <p class="section-desc">2023-2023 | Shoreline Community College</p>
+                        <!--This is the start of the keywords section-->
+                        <div id="holder">
+                            <div class="keywords">C++</div>
+                            <div class="keywords">Java</div>
+                            <div class="keywords">Python</div>
+                            <div class="keywords">Tutoring</div>
+                        </div>
+                        <!--This is the end of the keywords section-->
+                        <div class="things-desc">This is the start of the description and say that the description is really really long, like REALLY REALLY long, the end of the description will be hidden, maybe using an elipsis or not? well I dont know how it's going to work, I'm just testing the bounds of this div tag</div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="Volunteers" class="tabsections">
+                    <h1>Volunteering Experience</h1>
+                    <div class="Aslot" id="GDSC" onclick="location.href='https://gdsc.community.dev/california-state-university-east-bay-hayward-united-states/'";>
+                        <h2 class="section-head">Operations Lead</h2>
+                        <p class="section-desc">2024-current | Google Developer Students Club</p>
+                        <div id="holder">
+                            <div class="keywords">Event Organizing</div>
+                            <div class="keywords">Team Management</div>
+                        </div>
+                    </div>
+                    <div class="Aslot" id="ISC-Head" onclick="location.href='#';">
+                        <h2 class="section-head">Event Organizer Lead</h2>
+                        <p class="section-desc">2022-2023 | Indonesian Students Club</p>
+                        <!--This is the start of the keywords section-->
+                        <div id="holder">
+                            <div class="keywords">Event Organizing</div>
+                            <div class="keywords">Team Management</div>
+                            <div class="keywords">Project Management</div>
+                        </div>
+                        <!--This is the end of the keywords section-->
+                    </div>
+                    <div class="Aslot" id="UINSTEM-Sec" onclick="location.href='#';">
+                        <h2 class="section-head">Secretary</h2>
+                        <p class="section-desc">2022-2023 | UINSTEM</p>
+                        <!--This is the start of the keywords section-->
+                        <div id="holder">
+                            <div class="keywords">Team Management</div>
+                            <div class="keywords">Project Management</div>
+                        </div>
+                        <!--This is the end of the keywords section-->
+                    </div>
+                    <div class="Aslot" id="IFGF-Lead" onclick="location.href='#';">
+                        <h2 class="section-head">Game Team Lead</h2>
+                        <p class="section-desc">2022 | IFGF-NextGen</p>
+                        <!--This is the start of the keywords section-->
+                        <div id="holder">
+                            <div class="keywords">Team Management</div>
+                            <div class="keywords">Project Management</div>
+                        </div>
+                        <!--This is the end of the keywords section-->
+                    </div>
+
+                </div>
+
+                <div id="Portofolio" class="tabsections">
+                    <h1>Hello</h1>
+                </div> 
+
+    
+            </div>
+    </body>
+
+</html>
